@@ -201,8 +201,9 @@ header a:hover{
     color: var(--cor-secundaria);
     padding: 10px;
     margin: 20px auto;
-    width: 60%;
+    width: 44%;
     border-radius: 20px;
+    text-align: center;
 }
 
 .contato span, .contato a{
@@ -225,4 +226,14 @@ header a:hover{
 .lista-contato a:hover{
     font-weight: bold;
     transition: 0.5s;
+}
+
+
+
+@media screen and (min-width: 2600px) {
+
+    .contato p{
+        width: 30%;
+    }
+    
 }
